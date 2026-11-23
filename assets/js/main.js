@@ -2,9 +2,6 @@
 (function () {
   'use strict';
 
-  // Add ?draft to the address to show editor placeholders (elements with class "todo"), if any.
-  if (/[?&]draft\b/.test(location.search)) document.body.classList.add('draft');
-
   // Mobile menu
   var btn = document.querySelector('.menu-btn'), nav = document.getElementById('nav');
   if (btn && nav) {

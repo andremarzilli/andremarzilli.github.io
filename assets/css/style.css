@@ -180,6 +180,7 @@ ul.plain li:last-child { border-bottom: 1px solid var(--line); }
 .contact-list { list-style: none; padding: 0; margin: 24px 0 0; border-top: 1px solid var(--ink); }
 .contact-list li { display: grid; grid-template-columns: 128px 1fr; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); max-width: none; align-items: baseline; }
 .contact-list .k { color: var(--muted); }
+ul.plain + .contact-list { margin-top: 40px; }
 .contact-list a { font-size: clamp(20px, 2vw, 24px); line-height: 32px; }
 .ig-card { margin-top: 32px; padding: 24px; background: var(--ink); color: var(--paper); }
 .ig-card p { margin: 0 0 16px; max-width: 44ch; }
